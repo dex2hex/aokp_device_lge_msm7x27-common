@@ -12,7 +12,7 @@ COMMON_GLOBAL_CFLAGS += -DBINDER_COMPAT
 BOARD_USE_NASTY_PTHREAD_CREATE_HACK := true
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/lge/msm7x27
+TARGET_KERNEL_SOURCE := kernel/lge/p500
 # Copy LG Kernel Headers here if necessary, DON'T use Adroid auto-generated headers
 TARGET_SPECIFIC_HEADER_PATH := device/lge/msm7x27-common/include
 
