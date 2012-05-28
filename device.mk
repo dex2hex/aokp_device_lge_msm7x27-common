@@ -107,6 +107,12 @@ PRODUCT_PACKAGES += \
     camera.msm7x27 \
     lgapversion
 
+# AOKP Packages
+PRODUCT_PACKAGES += \
+    Music \
+    Stk \
+    SpeechRecorder \
+
 # Live wallpapers
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 PRODUCT_PACKAGES += \
