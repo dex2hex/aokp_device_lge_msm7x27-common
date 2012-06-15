@@ -1,3 +1,4 @@
 #Files to be omitted while adding in git
 *.*~
 .*~
+*~
