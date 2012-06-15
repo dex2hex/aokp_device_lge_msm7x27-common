@@ -310,3 +310,11 @@ service bugreport /system/bin/logwrapper /system/bin/dumpstate -d -v -o /sdcard/
     class main
     disabled
     oneshot
+
+# Adb over Network
+on property:service.adb.tcp.port=5555
+    stop adbd
+    start adbd
+on property:service.adb.tcp.port=-1
+    stop adbd
+    start adbd
