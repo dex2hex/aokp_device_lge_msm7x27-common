@@ -86,6 +86,7 @@ on post-fs
     chown system system /data/nv
     chmod 0711 /data/nv
 
+    chmod 0771 /cache
     mkdir /data/local/download 0771 system cache
     mkdir /cache/download 0771 system cache
 
