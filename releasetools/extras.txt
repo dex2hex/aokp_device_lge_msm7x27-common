@@ -1,8 +1,9 @@
-# Video editor
+# APK Packages
 app/VideoEditor.apk
 lib/libvideoeditor_jni.so
 lib/libvideoeditorplayer.so
 app/Trebuchet.apk
+app/Achromatic.apk
 
 # tts/lang_pico
 tts/lang_pico/de-DE_gl0_sg.bin
